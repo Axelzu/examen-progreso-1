@@ -21,6 +21,18 @@ int main() {
         scanf("%d", &num);
     
 
+    if (num == 0) {
+            numCeros++;
+        } else if (num > 0) {
+            numPositivos++;
+        } else {
+            numNegativos++;
+        }
+
+        totalNumeros++;
     }
+
+    
+
     return 0;
 }
