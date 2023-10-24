@@ -32,6 +32,10 @@ int main() {
         totalNumeros++;
     }
 
+    printf("Porcentaje de números cero: %.2f%%\n", (float)numCeros / totalNumeros * 100);
+    printf("Porcentaje de números positivos: %.2f%%\n", (float)numPositivos / totalNumeros * 100);
+    printf("Porcentaje de números negativos: %.2f%%\n", (float)numNegativos / totalNumeros * 100);
+
     
 
     return 0;
