@@ -13,7 +13,14 @@ int main() {
         printf("La cantidad de números debe ser un entero positivo.\n");
         return 1;
     }
+    printf("Ingrese los %d números:\n", N);
+
+    for (int i = 0; i < N; i++) {
+        int num;
+        printf("Número %d: ", i + 1);
+        scanf("%d", &num);
     
 
+    }
     return 0;
 }
